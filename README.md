@@ -22,7 +22,7 @@ We decide to approach the estimation of $\beta$ with the following two methods:
 
 
 For the two methods above, you want evaluate the estimation accuracy using the two metrics:
--    L2 norm: $\sum_i {\beta_j - \beta^{\hat}_j}^2$
+-    L2 norm: $\sum_i {\beta_j - \hat{\beta_j}}^2$
 
 -    Support recovery, i.e. the proportion of entries of $\beta$ that were correctly estimated to be equal to or
 different from zero (in other words, the proportion of entries $j = 1,...,p$ for which the following
