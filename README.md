@@ -26,7 +26,7 @@ For the two methods above, you want evaluate the estimation accuracy using the t
 
 -    Support recovery, i.e. the proportion of entries of $\beta$ that were correctly estimated to be equal to or
 different from zero (in other words, the proportion of entries $j$ = 1,...,$p$ for which the following
-statement holds true: ($\beta_j > 0$ and $\beta^{hat}_j> 0$) or ($\beta_j = 0 and ˆβj= 0) )
+statement holds true: ($\beta_j > 0$ and $\hat{\beta_j}> 0$) or ($\beta_j = 0 and $\hat{\beta_j}= 0$) )
 
 Run a simulation study with $n$ = 40 and $\sigma^2$= {1,4,7,10}. Plot the results of the estimation accuracy (L2
 norm and support recovery) in function of $\sigma^2$= {1,4,7,10}.
