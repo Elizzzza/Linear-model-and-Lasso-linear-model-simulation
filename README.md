@@ -16,16 +16,15 @@ distribution with mean 0 and standard deviation $\sigma$.
 
 We decide to approach the estimation of $\beta$ with the following two methods:
 
--     Simple linear model (`lm`)
+-   Simple linear model (`lm`)
 
--     Lasso linear model: Suppose now you want to take advantage of the fact that some entries of the
-unknown vector $\beta$ are zero, i.e. $\beta$ is sparse. You therefore decide to apply a lasso linear model for the estimation of $\beta$. 
+-   Lasso linear model: Suppose now you want to take advantage of the fact that some entries of the unknown vector $\beta$ are zero, i.e. $\beta$ is sparse. You therefore decide to apply a lasso linear model for the estimation of $\beta$. 
 
 
 For the two methods above, you want evaluate the estimation accuracy using the two metrics:
--      L2 norm: $\sum_i {\beta_j - \beta^{\hat}_j)}^2
+-    L2 norm: $\sum_i {\beta_j - \beta^{\hat}_j)}^2$
 
--      Support recovery, i.e. the proportion of entries of $\beta$ that were correctly estimated to be equal to or
+-    Support recovery, i.e. the proportion of entries of $\beta$ that were correctly estimated to be equal to or
 different from zero (in other words, the proportion of entries $j$ = 1,...,$p$ for which the following
 statement holds true: ($\beta_j > 0$ and ˆβj> 0) or ($\beta_j = 0 and ˆβj= 0) )
 
