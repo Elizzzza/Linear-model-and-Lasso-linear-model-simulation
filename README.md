@@ -5,7 +5,7 @@
 
 In this problem, you will use the package `simulator` to perform the following simulation study.
 
-Let $X$ be a n &times; p data matrix where each entry is generated from a normal distribution with mean 0 and
+Let $X$ be a $ n \times p$ data matrix where each entry is generated from a normal distribution with mean 0 and
 standard deviation 1. Let $y$ be the vector of responses
 
 $$y = X \beta + \epsilon,$$
@@ -15,11 +15,10 @@ distribution with mean 0 and standard deviation $\sigma$.
 
 We decide to approach the estimation of $\beta$ with the following two methods:
 
--     **Simple linear model (`lm`)**
+-     Simple linear model (`lm`)
 
--     **Lasso linear model**: Suppose now you want to take advantage of the fact that some entries of the
-unknown vector $\beta$ are zero, i.e. $\beta$ is sparse. You therefore decide to apply a lasso linear model for the
-estimation of $\beta$. 
+-     Lasso linear model: Suppose now you want to take advantage of the fact that some entries of the
+unknown vector $\beta$ are zero, i.e. $\beta$ is sparse. You therefore decide to apply a lasso linear model for the estimation of $\beta$. 
 
 
 For the two methods above, you want evaluate the estimation accuracy using the two metrics:
