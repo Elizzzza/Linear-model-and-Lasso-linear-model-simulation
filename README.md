@@ -30,7 +30,7 @@ different from zero (in other words, the proportion of entries ***j*** = 1,...,*
 statement holds true: (βj> 0 and ˆβj> 0) or (βj= 0 and ˆβj= 0) )
 
 Run a simulation study with n = 40 and $\sigma^2$= {1,4,7,10}. Plot the results of the estimation accuracy (L2
-norm and support recovery) in function of σ2= {1,4,7,10}.
+norm and support recovery) in function of $$sigma^2$$= {1,4,7,10}.
 Comment on the results.
 
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
