@@ -5,8 +5,9 @@
 
 In this problem, you will use the package `simulator` to perform the following simulation study.
 
-Let $X$ be a $ n \times p$ data matrix where each entry is generated from a normal distribution with mean 0 and
-standard deviation 1. Let $y$ be the vector of responses
+Let $X$ be a $n \times p$ data matrix where each entry is generated from a normal distribution with mean 0 and
+standard deviation 1. 
+Let $y$ be the vector of responses
 
 $$y = X \beta + \epsilon,$$
 
